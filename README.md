@@ -42,7 +42,7 @@ $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 Once you launch the packages properly, the initial state may look like the picture below. At initail state, the arrows which represent the estimation of robot's location and direction are pretty scattered. In this case, the robot can't estimate their state(location and direction) precisely.  
 |Rviz|Gazebo|
 |:---:|:---:|
-|<img src="initial_state_rviz.jpg" alt="initial_rviz" style="width:450px;"/>|<img src="initial_state_gazebo.jpg" alt="initial_rviz" style="width:450px;"/>|  
+|<img src="initial_state_rviz.jpg" alt="initial_rviz" style="width:450px;"/>|<img src="initial_state_gazebo.jpg" alt="initial_gazebo" style="width:450px;"/>|  
 
 As I just mentioned, you can use Teleop Package to control robot with a keyboard. After making sevral movements, you probably have this result. Now the arrows are gathered near the robot.    
 <img src="localized.jpg" alt="initial_rviz" style="width:600px;"/>   
@@ -50,4 +50,4 @@ As I just mentioned, you can use Teleop Package to control robot with a keyboard
 What if someone picks up the robot and relocates it on a random spot? Can robot deal with this? Yes, he can.
 |Pick up and relocate|Re-localization|
 |:---:|:---:|
-|<img src="relocation.jpg" alt="initial_rviz" style="width:450px;"/>|<img src="relocalized.jpg" alt="initial_rviz" style="width:450px;"/>|  
+|<img src="relocation.jpg" alt="relocation" style="width:450px;"/>|<img src="relocalized.jpg" alt="relocalized" style="width:450px;"/>|  
